@@ -28,7 +28,7 @@ var testBall;
 
 function preload() {
 
-  sound = loadSound("Virtual Self - ANGEL VOICES.mp3");  // preload the sound file
+  sound = loadSound("a.flac");  // preload the sound file
 }
 
 function setup() {
