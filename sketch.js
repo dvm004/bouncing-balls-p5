@@ -12,10 +12,15 @@
  *    which is then converted into mp3 format to be used here.
  * 2. 2022-06-28: added a textbox; check if any ball is colliding with the textbox.
  *    If so, the ball reverses the move direction.
+ *
+ * Changes by Dom Maceo
+ * 1) Changed the Apollo 11 soundbite to a song from my collection
+ * 2) Changed the text, color of the text, and size of the box
+ * 3) Changed randomly generated parameters for speed
  */
 
-const BOX_WIDTH  = 200;  // textbox dimensions
-const BOX_HEIGHT = 100;
+const BOX_WIDTH  = 250;  // textbox dimensions
+const BOX_HEIGHT = 125;
 
 var balls = [];
 var sound;
@@ -59,10 +64,10 @@ function createBox() {
   rect(0, 0, BOX_WIDTH, BOX_HEIGHT);
   
   textSize(32);           // size of the text (pixels)
-  fill(0, 102, 153);      // fill() takes R,G,B values as the color
+  fill(55, 13, 110);      // fill() takes R,G,B values as the color
   // draw the text in the box (x,y,width,height) with the color in fill()
   textAlign(CENTER);
-  text('Hello World!', BOX_WIDTH/2, BOX_HEIGHT/2);   
+  text('Hello Computer', BOX_WIDTH/2, BOX_HEIGHT/2);   
  
 }
 
@@ -101,8 +106,8 @@ class Ball { // Constructor
     this.ballY = random(100, height)
     
     // Dictates velocity + direction
-    this.speedY = random(-5, 5);
-    this.speedX = random(-5, 5);
+    this.speedY = random(-10, 10);
+    this.speedX = random(-10, 10);
     
     this.size = random(100);
     
