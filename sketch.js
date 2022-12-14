@@ -23,7 +23,7 @@ var testBall;
 
 function preload() {
 
-  sound = loadSound("apollo11.mp3");  // preload the sound file
+  sound = loadSound("02_-_HOMICIDE.flac");  // preload the sound file
 }
 
 function setup() {
