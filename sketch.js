@@ -17,6 +17,8 @@
  * 1) Changed the Apollo 11 soundbite to a song from my collection
  * 2) Changed the text, color of the text, and size of the box
  * 3) Changed randomly generated parameters for speed
+ *
+ * Website address: https://dvm004.github.io/bouncing-balls-p5/
  */
 
 const BOX_WIDTH  = 250;  // textbox dimensions
